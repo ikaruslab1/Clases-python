@@ -10,8 +10,6 @@
 
 print("")
 
-
-
 # ==========================================
 # 1. La sentencia 'if' (Si...)
 # ==========================================
@@ -24,6 +22,22 @@ CalificacionAlumno: float = 8.5
 # Es obligatorio para indicarle a Python qué código pertenece dentro del 'if'.
 if CalificacionAlumno >= 8.0:
     print(f"¡Felicidades! Aprobaste la materia con {CalificacionAlumno}.")
+
+# Se puede emplear la palara reservada 'is', para saber si la variable que se está
+# comparando es exáctamente igual (lo mismo que un comparador estricto ===)
+
+if CalificacionAlumno is 8.5:
+    print(f"Se ha confirmado que su calificación es: {CalificacionAlumno}")
+
+# Este código no se imprimir ya que el resultado es false, por lo tanto no se ejecuta
+
+if CalificacionAlumno is 8:
+    print(f"Se ha confirmado que su calificación es: {CalificacionAlumno}")
+
+# Podemos leerlo de la siguiente forma:
+# ¿Es CalificacionAlumno exáctamente igual a 8?
+# No, tanto en valor como en tipo de dato (int != float)
+# Por lo tanto no se ejecuta el print
 
 print("\n-------------\n")
 
