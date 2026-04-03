@@ -30,3 +30,7 @@ print(f"¿None es igual a False? -> {None == False}")
 # La forma correcta y profesional de verificar si una variable es None 
 # no es usar '==', sino la palabra reservada 'is' (identidad).
 print(f"¿La variable es verdaderamente nula? -> {DatoDesconocido is None}")
+
+
+print("\n-------------")
+print("Fin de la Sesión 2.")

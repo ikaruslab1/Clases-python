@@ -43,3 +43,6 @@ aplica_apoyo = (edad_usuario >= 18) and (promedio_calificaciones > 8.0)
 
 print(f"Datos del usuario: Edad = {edad_usuario}, Promedio = {promedio_calificaciones}")
 print(f"¿Aplica para el apoyo?: {aplica_apoyo}")
+
+print("\n-------------")
+print("Fin de la Sesión 3.")
