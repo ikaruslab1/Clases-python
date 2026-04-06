@@ -1,5 +1,5 @@
 # ==========================================
-# Clase: Sesión 2 - Tipos de datos
+# Clase: Sesión 3 - Tipos de datos
 # Tema: Función incorporada type()
 # Autor: Prof. Adrián Torres
 # ==========================================

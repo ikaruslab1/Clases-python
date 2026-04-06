@@ -24,7 +24,7 @@ if CalificacionAlumno >= 8.0:
     print(f"¡Felicidades! Aprobaste la materia con {CalificacionAlumno}.")
 
 # Se puede emplear la palara reservada 'is', para saber si la variable que se está
-# comparando es exáctamente igual (lo mismo que un comparador estricto ===)
+# comparando es exáctamente igual (lo mismo que un comparador estricto ==)
 
 if CalificacionAlumno is 8.5:
     print(f"Se ha confirmado que su calificación es: {CalificacionAlumno}")
