@@ -22,7 +22,7 @@ print(type(x))  <--- Opcionalmente, podemos imprimirlo por pantalla
 # Esto nos dice la categoria (class  o clase) y el nombre del dato (str)
 print("\n-------------\n")
 # Podemos ver de forma más clara el valor con el método de 
-# la función incorporada type(), empleando la sintaxis; .__name__ al final
+# la función incorporada type(), empleando la sintaxis; .__name__ al finaldsdf
 
 y: bool = False
 type(y).__name__
